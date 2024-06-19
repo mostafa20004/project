@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+ /* headerالجزء الخاص ب ال */
+ header{
+    background-color: rgb(39, 23, 55);
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 100px;
+ }
+ .logo{
+    text-decoration: none;
+    font-weight: 600;
+    color: #ededed;
+    text-transform: uppercase;
+    font-size: 1.8em;
+ }
+ .nave a{ 
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px ;
+    margin: 5px;
+    font-size: 1.2em;
+    font-weight: 300;
+    transition: all 0.3ms ease;
+    
+ }
+ .nave a:hover{
+    color: #e64c4c;
+ }
+.main{
+    position: relative;
+    padding: 350px;
+    background-image: url(Untitled\ design22\ \(2\).png);
+    padding-left: 100px;
+    background-size: cover;
+    background-attachment: fixed;
+    cursor: pointer;
+}
+h2 ,h3 {
+    color: #e9e9e9;
+}
+
+.main h2 span{
+    display: inline-block;
+    color: #0c7ee8;
+    font-size: 3em;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.main h3 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main_botton{
+    color: #e9e9e9;
+    background-color: #0c7ee8;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+    transition: 0.7s ease;
+
+}
+.main_botton:hover{
+  background-color: #006fd6;
+    transform: scale(1.1);
+} 
+.social_icon a{
+    padding-right: 30px;    
+    display: inline-block;
+    font-size: 1.3em;
+    color: #ededed;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    font-size: 2.2em;
+    font-weight: 800;
+    color: #23194d;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.card{
+    background-color: #f9fafc;
+    width: 360px;
+    box-shadow: 0 5px 25px rgb(31, 31, 29);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 20px;
+    transition:0.7s ease ;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    color: #044099;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    scale: 2;
+    margin: 10px;
+}
+.info h3{
+    color: #211f38;
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+}
+.info p{
+    text-align: center;
+    font-weight: 600;
+}
+.title-projects{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    font-size: 2.3em;
+    color: #ffffff;
+    width: 800;
+}
+/* projects */
+#Projects{
+    background-color: #2b2b49;
+    width: 100%;
+
+
+}
+.cad-project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    
+}
+.pro-card{
+    box-shadow: 0 5px 25px rgb(31, 31, 29);
+    transition: 0.7s ease ;
+    border-radius: 20px;
+    background-color: #ededed;
+    width: 360px;
+    height: 450px;
+    margin: 25px;
+    padding: 30px;
+    cursor: pointer
+    
+}
+.pro-card:hover{
+    transform: scale(1.1);
+}
+.car{
+    margin: 20px;
+    padding: 10px;
+    width: 250px;
+    height: 140px;
+    border-radius: 10px;
+}
+.tit3{
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.2em;
+    color: #23194d;
+}
+.p-proj{
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.bott-card{
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 150px;
+    height: 60px;
+    padding: 10px 0;
+    margin-bottom: 40px;
+    border: 0;
+    background-color: #2d2b46;
+    margin: 10px;
+    color: #ededed;
+    border-bottom: none;
+    display: inline-block;
+    position: relative;
+    left: 60px;
+    justify-content: center;
+    transition: 0.7s ease-in-out;
+    font-weight: 800;
+    letter-spacing: 1px
+
+}
+.bott-card:hover{
+    transform: scale(1.1);
+    color: #1f1936;
+}
+span{
+    color: #23194d;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.title-contact{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    font-size: 2.3em;
+    color: #201b3f;
+    width: 800;
+    
+}
+/* contact me */
+.contact{
+    height: 100vh;
+    background-color: #b5fdf4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contener{
+    width: 80%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 60px 40px 40px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+
+}
+.conte{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.left-side{
+    width: 25%;
+    height: 100%;
+    position: relative;
+    margin-top: 20px;
+
+}
+.left-side::before{
+    content: '';
+    position: absolute;
+    height: 70%;
+    width: 3px;
+    background: #151536;
+    right: -15px;
+    top: 50px;
+    transform: translateY(-5%);
+}
+.right-side{
+    width: 75%;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.conte .left-side .details{
+    margin-left: 14px;
+    text-align: center;
+}
+.conte .left-side .details i{
+    font-size: 30px;
+    color: #151536;
+    margin-bottom: 10px;
+}
+
+.conte .left-side .details .topic{
+    font-size: 1.3em;
+    font-weight: 500;
+}
+.text-one , .text-two{
+    font-size: 14px;
+    color: #8eb8b3
+}
+.topic-text{
+    font-size: 24px;
+    font-weight: 600;
+    color: #23194d;
+}
+.input-box{
+    height: 50px;
+    width: 100%;
+    margin: 12px 0;
+    border: none;
+}
+.input-box input,  textarea{
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color: #e3eeed;
+    border-radius: 6px;
+    font-size: 1.1em;
+    padding: 0 15px;
+    resize: none;
+}
+.message-box{
+    min-height: 110px;
+    
+}
+.button input[type="button"] {
+    font-size: 1.1em;
+    border: none;
+    border-radius: 6px;
+    padding: 5px;
+    margin: 10px 20px;
+    background-color: #151536;
+    color: #ffffff;
+    transition: all 0.7s ease;
+    cursor: pointer;
+
+}
+.button input[type="button"]:hover{
+  background-color: #392c6e;
+    /* transform: scale(1.1); */
+}
